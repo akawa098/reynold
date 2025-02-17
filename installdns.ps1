@@ -1,1 +1,1 @@
-﻿Install-WindowsFeature -name DNS -IncludeManagementTools
+Install-WindowsFeature -name DNS -IncludeManagementTools
