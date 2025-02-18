@@ -619,7 +619,7 @@ conf t
    name 4182
 !
   voice register pool 1
-    id mac de31.90e1.49e5
+    id mac 02:70:ED:20:A8:48
     number 1 dn 1
     dtmf-relay sip-notify
     username 4181 password 4181
