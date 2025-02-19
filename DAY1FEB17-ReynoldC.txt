@@ -1,3 +1,4 @@
+COMMON SCRIPT!!
 show ip DHCP binding - for showing IP/MAC connected to switch 
 show ip int br - for showing IP connected to LAB
 show mac address-table - for showing mac connected to switch
