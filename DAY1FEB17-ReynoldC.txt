@@ -1,3 +1,11 @@
+show ip DHCP binding - for showing IP/MAC connected to switch 
+show ip int br - for showing IP connected to LAB
+show mac address-table - for showing mac connected to switch
+show vlan br - for displaying vlan setup to switch
+show etherchannel summary - for displaying the status of all etherchannel
+show cdp neighbor - to show all connected devices
+
+
 TASK1: COLLAPSED BACKBONE: BASIC LAYER3 CONFIGURATION.
 !@@@CORE SWITCH SA TAAS
 config t
