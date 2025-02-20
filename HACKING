@@ -7,3 +7,8 @@ net use x: /delete
 net use \\victim IP\ipc$
 nmap -sP victim IP
 net use x: \\victim IP\c$
+
+
+FIREWALL
+ctrl + shift 6 then press x > after entering ftp need to do this
+then type disconnect 1
