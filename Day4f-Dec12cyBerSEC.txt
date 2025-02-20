@@ -130,21 +130,22 @@ Int Gi 1
  ip access-group NOISKUL in
 end
 YOUR COMPANY IS HAS VERY LOW INTERNET SPEED, BEC OF TORRENTS:
-www.thepiratebay.org
-www.limetorrents.com
-www.freeanimeonline.com
-www.torlock2.com
-www.hentaisites.com
-www.iptorrents.com
+www.thepiratebay.org 162.159.137.6
+www.limetorrents.com 104.21.74.130
+www.freeanimeonline.com 76.223.54.146
+www.torlock2.com 104.21.96.1
+www.hentaisites.com 172.67.173.147
+www.iptorrents.com 104.21.16.1
 
 config t
 NO ip access-list standard NOTORS
 ip access-list standard NOTORS
-DENY   __.__.__.__   0.0.255.255
-DENY   __.__.__.__   0.0.255.255
-DENY   __.__.__.__   0.0.255.255
-DENY   __.__.__.__   0.0.255.255
-DENY   __.__.__.__   0.0.255.255
+DENY   162.159.0.0  0.0.255.255
+DENY   104.21.0.0  0.0.255.255
+DENY   76.223.0.0   0.0.255.255
+DENY   104.21.0.0  0.0.255.255
+DENY   172.67.0.0   0.0.255.255
+DENY   104.21.0.0   0.0.255.255
 Permit Any
 Int Gi 1
  ip access-group NOTORS in
@@ -312,7 +313,7 @@ tcp,udp,icmp,IP     Any      web310/11
 Config t
 service timestamps log datetime
 service timestamps debug datetime
-logging 10.m.1.10
+logging 10.41.1.10
 logging trap 5
 NO IP access-list Extended FWP1
 IP access-list Extended FWP1
