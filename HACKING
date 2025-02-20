@@ -1,0 +1,9 @@
+netstat -s -p tcp - for checking ESTABLISHED
+nmap -v IP of victim
+nmap -sP IP of victim
+
+CREATION OF FOLDER TO VICTIM
+net use x: /delete
+net use \\victim IP\ipc$
+nmap -sP victim IP
+net use x: \\victim IP\c$
