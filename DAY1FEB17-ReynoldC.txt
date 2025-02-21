@@ -7,6 +7,8 @@ show etherchannel summary - for displaying the status of all etherchannel
 show cdp neighbor - to show all connected devices
 show ip bgp summary - to show bgp summary
 show ip route bgp - to show if bgp is setup
+LLDP neighbor - command to see other brand of switch
+
 
 
 TASK1: COLLAPSED BACKBONE: BASIC LAYER3 CONFIGURATION.
